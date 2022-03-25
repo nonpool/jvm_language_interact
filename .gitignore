@@ -1,0 +1,6 @@
+# Project exclude paths
+/kotlin_lib_module/build/
+/kotlin_module/build/
+/scala_lib_module/build/
+/scala_module/build/
+/scala_module/build/classes/java/main/

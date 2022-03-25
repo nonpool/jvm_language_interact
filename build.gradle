@@ -1,0 +1,22 @@
+plugins {
+//    id 'org.jetbrains.kotlin.jvm' version '1.5.21'
+}
+
+group 'com.nonpool'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+//compileScala.dependsOn compileKotlin
+
+//compileScala.classpath += files(compileKotlin.destinationDir)
+
+//compileKotlin.classpath += files(compileScala.destinationDir)
+//compileKotlin.dependsOn compileScala
+
+dependencies {
+//    implementation 'org.scala-lang:scala-library:2.12.14'
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+}

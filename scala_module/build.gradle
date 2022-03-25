@@ -1,0 +1,19 @@
+
+plugins {
+  id 'scala'
+}
+
+group 'com.nonpool'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation(project(":kotlin_lib_module"))
+  implementation(project(":scala_lib_module"))
+  implementation 'org.scala-lang:scala-library:2.12.14'
+  implementation 'org.scala-lang:scala-reflect:2.12.14'
+  compileOnly "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+}

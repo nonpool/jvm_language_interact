@@ -1,0 +1,7 @@
+rootProject.name = 'jvm_language'
+include 'scala_module'
+include 'scala_lib_module'
+
+include 'kotlin_module'
+include 'kotlin_lib_module'
+
